@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        this.setTitle("Click Counter")
+        this.title = "Click Counter"
 
         var timeClicked = 0
         binding.button.setOnClickListener{
-            timeClicked = timeClicked + 1
+            timeClicked += 1
             binding.textView.text = timeClicked.toString()
         }
     }
