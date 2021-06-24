@@ -11,6 +11,18 @@ fun main(){
     val myFloat: Float = 13.23F
     val myDouble: Double = 234.42342
 
+    //Boolean types
+    var isSunny: Boolean = true
+
+    //Char types
+    var letterChar: Char = 'A'
+    val digitChar: Char = '1'
+
+    //String types
+
+    val myStr: String = "Hello World"
+    var firstCharInStr = myStr[0]
+
     var myName = "Himasha"
-    print("Hello $myName")
+    print(myStr[myStr.length - 1])
 }
